@@ -12,6 +12,7 @@ During this lab, you will adjust the overall page layout using your knowledge of
 3. We are going to add a single web component to the  `appElement.innerHTML` string. This web component is a custom element that we have created. It is a simple component that will display your name, and a greeting.
 4. First, import the web component into the `app.js` file. You can see that we have already imported the `demo-component` and the `hello-world` components. We will be importing the `lit-hello-world` component. This component is a simple web component that is built using the LitElement library.
 5. Once you have imported the `lit-hello-world` component, you can add it to the `appElement.innerHTML` string. You can see that we are using the `<hello-world>` component as a reference. The `<lit-hello-world>` component is a custom element, so we will need to use the custom element syntax to invoke it: 
+
 ```html
   <lit-hello-world></lit-hello-world>
 ```
