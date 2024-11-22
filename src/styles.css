@@ -1,3 +1,21 @@
 body {
   font-family: sans-serif;
 }
+#app {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+hello-world {
+  grid-column: 1/6;
+}
+
+lit-hello-world,
+.field {
+  grid-column: 1/4;
+}
+
+demo-component,
+.columns {
+  grid-column: 4/6;
+}
