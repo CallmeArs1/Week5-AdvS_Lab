@@ -1,23 +1,63 @@
 body {
   font-family: sans-serif;
+  background-color: #f5f5dc;
+  margin: 0;
+  padding: 0;
 }
+
 #app {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-items: center;
 }
 
 hello-world {
   grid-column: 1/6;
+  text-align: center;
 }
 
 lit-hello-world,
 .field {
   grid-column: 1/4;
+  text-align: center;
 }
 
-demo-component,
-.columns {
+demo-component {
   grid-column: 4/6;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+demo-component img {
+  margin-top: 0.5rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.columns {
+  margin-top: 1rem;
+}
+
+nav,
+section {
+  padding: 1rem;
+}
+body::after {
+  content: "© 2024 - Arselan Khan";
+  display: block;
+  background-color: #d3d3c4;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+  border-top: 1px solid #aaa;
+  margin-top: 2rem;
+  grid-column: 1/6;
 }
 
 

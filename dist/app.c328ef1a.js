@@ -1466,7 +1466,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // web components' import
 
 var appElement = document.getElementById("app");
-appElement.innerHTML = "\n  <hello-world></hello-world>\n  <hello-world name=\"Web Components\"></hello-world>\n  \n  <demo-component \n    title=\"My Title\"\n    image-src=\"http://www.w3.org/2000/svg\"\n    <p class=\"notes\" slot=\"notes\">This is a demo component</p>\n  </demo-component>\n  <lit-hello-world name=\"Arselan Khan\"></lit-hello-world> <!-- Added the lit-hello-world component -->\n\n  ".concat(_form.default, "\n  \n  <div class=\"columns\">\n    <nav class=\"column\">\n      <model-chooser limit=\"4\"></model-chooser>\n    </nav>\n    <section class=\"column\">\n      <model-viewer show-details></model-viewer>\n    </section>\n  </div>\n");
+appElement.innerHTML = "\n  <hello-world></hello-world>\n  <hello-world name=\"Web Components\"></hello-world>\n  \n  <demo-component \n    title=\"My Title for the Week 5 Lab\"\n    image-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyyPqXqo54hpi5Oxf0G1KbYxtksgYAPEoeoA&s\"\n    <p class=\"notes\" slot=\"notes\">This is a demo component</p>\n  </demo-component>\n  <lit-hello-world name=\"Arselan Khan\"></lit-hello-world> <!-- Added the lit-hello-world component -->\n\n  ".concat(_form.default, "\n  \n  <div class=\"columns\">\n    <nav class=\"column\">\n      <model-chooser limit=\"4\"></model-chooser>\n    </nav>\n    <section class=\"column\">\n      <model-viewer show-details></model-viewer>\n    </section>\n  </div>\n");
 var chooser = appElement.querySelector("model-chooser");
 var viewer = appElement.querySelector("model-viewer");
 var showDetailsInput = appElement.querySelector("[name=show-details]");

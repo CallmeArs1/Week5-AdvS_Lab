@@ -15,8 +15,8 @@ appElement.innerHTML = `
   <hello-world name="Web Components"></hello-world>
   
   <demo-component 
-    title="My Title"
-    image-src="http://www.w3.org/2000/svg"
+    title="My Title for the Week 5 Lab"
+    image-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyyPqXqo54hpi5Oxf0G1KbYxtksgYAPEoeoA&s"
     <p class="notes" slot="notes">This is a demo component</p>
   </demo-component>
   <lit-hello-world name="Arselan Khan"></lit-hello-world> <!-- Added the lit-hello-world component -->
